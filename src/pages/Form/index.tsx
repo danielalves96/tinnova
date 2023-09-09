@@ -72,9 +72,11 @@ const PageForm: React.FC = () => {
       isEdit ? updatePost(isEdit, formData) : postInDb(formData);
     }
 
-    setFormData(initialValues);
-    setLoading(false);
-    navigate("/");
+    setTimeout(() => {
+      setFormData(initialValues);
+      setLoading(false);
+      navigate("/");
+    }, 600);
   };
 
   return (
