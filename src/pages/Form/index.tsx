@@ -80,7 +80,7 @@ const PageForm: React.FC = () => {
   return (
     <>
       <InputText
-        label="Nome completo"
+        label="Nome completo (Sem abreviações)"
         placeholder="Digite seu nome"
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
           setFormData({ ...formData, name: e.target.value });
