@@ -6,6 +6,8 @@
   Projeto desenvolvido como teste pratico, em um processo seletivo da empresa Tinnova. O projeto tem como objetivo a criação de um formulário para cadastrar dados e buscar dados de uma api mock da empresa no localstorage. A também uma página de "dashboard" para listar os usuários cadastrados no localStorage, dando a opção de editar, visualizar ou excluir cada item.
 </p>
 
+## Link para aplicação: [Link](https://tinnova-theta.vercel.app/)
+
 # 📌 Conteúdo
 
 - [Tecnologias](#tecnologias)
